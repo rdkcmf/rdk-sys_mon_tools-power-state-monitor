@@ -1,0 +1,12 @@
+Change following path in Makefile to match your path
+CROSS_TOOLCHAIN=/opt/toolchains/i686-linux-elf
+CROSS_COMPILE=$(CROSS_TOOLCHAIN)/bin/i686-cm-linux
+SDK_FSROOT=/opt/ramdisk
+
+and enter
+make clean
+make
+make install
+
+all binaries will be in bin folder
+
