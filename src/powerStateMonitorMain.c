@@ -27,11 +27,13 @@
 #include <glib.h>
 //#include <Msg.h>
 
-#ifdef __cplusplus 
+#ifdef __cplusplus
 extern "C" {
 #endif
-#include <direct/list.h>
-#ifdef __cplusplus 
+
+/* C headers to be added here */
+
+#ifdef __cplusplus
 }
 #endif
 
